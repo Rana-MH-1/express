@@ -1,0 +1,50 @@
+body{
+    background-image: url('../b3.jpg');
+    height: 800px;
+}
+
+header p,nav, footer p{
+    display: inline;
+    font: bold 24pt;
+    color: white;
+}
+
+header,footer {
+    background-color:rgb(50, 51, 95);
+    padding:12px;
+    opacity: 0.7;
+}
+
+nav{
+    float: right;
+}
+
+a:link,a:active,a:visited {
+    color: white;
+} 
+
+header{
+    position: fixed;
+    top:0;
+    width: 98%;
+    left: 0;
+}
+
+.center{
+    text-align: center;
+    border: 1px inset black;
+    width:900px;
+    margin: 120px auto 0;
+    word-spacing: 10px;
+}
+
+.p{
+    width: 350px;
+    padding: 200px 0 0 60px;
+    word-spacing: 15px;
+}
+
+footer{
+    margin-top: 170px;
+}
+
